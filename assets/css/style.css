@@ -3453,6 +3453,7 @@ body:not(.buddypress) .article-content table th {
   color: #4776e6 !important;
   background: linear-gradient(145deg, #4776e6, #8e54e9);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
@@ -3867,11 +3868,13 @@ input:-webkit-autofill,
 textarea:-webkit-autofill,
 select:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  box-shadow:  0 0 0px 1000px transparent inset;
   -webkit-text-fill-color: #b7b7b7 !important;
 }
 
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  box-shadow: 0 0 0px 1000px transparent inset;
   -webkit-text-fill-color: #b7b7b7 !important;
 }
 
@@ -4237,6 +4240,7 @@ input[type='radio']:checked + label:before {
   background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
   background: linear-gradient(to right, #8e54e9, #4776e6);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .site-header.header-style-four {
@@ -4432,6 +4436,7 @@ input[type='radio']:checked + label:before {
   background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
   background: linear-gradient(to right, #8e54e9, #4776e6);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -5525,6 +5530,7 @@ a:active {
   background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
   background: linear-gradient(to right, #8e54e9, #4776e6);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .hero-block.hero-block-one > .element-group > .element {
@@ -7218,6 +7224,7 @@ a:active {
   background: -webkit-linear-gradient(left, #8e54e9, #4776e6);
   background: linear-gradient(to right, #8e54e9, #4776e6);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1em;
   display: inline-block;
