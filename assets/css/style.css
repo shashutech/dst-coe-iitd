@@ -12585,20 +12585,19 @@ h2.oppertunities-section {
 }
 
 .earth-header-img {
-  box-shadow: 8px 8px 30px rgb(0 0 0 / 50%);
   position: absolute;
   z-index: 10;
-  height: 450px;
+  height: 380px;
   width: auto;
   top: 0;
   left: 100px;
-  border-radius: 50%;
+  
 }
 
 .computer-img {
   position: relative;
   z-index: 3;
-  top: 250px;
+  top: 200px;
   left: 320px;
   height: 450px;
   width: auto;
@@ -12672,6 +12671,8 @@ img.research-header-img {
   .hamburger-menus {
     display: none !important;
   }
+
+ 
 }
 
 @media only screen and (max-width: 600px){
