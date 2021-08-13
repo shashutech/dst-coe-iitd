@@ -12587,18 +12587,18 @@ h2.oppertunities-section {
 .earth-header-img {
   position: absolute;
   z-index: 10;
-  height: 380px;
+  height: 400px;
   width: auto;
   top: 0;
-  left: 100px;
-  
+  left: 130px;
+  border-radius: 50%;
 }
 
 .computer-img {
   position: relative;
   z-index: 3;
-  top: 200px;
-  left: 320px;
+  top: 190px;
+  left: 340px;
   height: 450px;
   width: auto;
   margin-bottom: 200px;
