@@ -12565,7 +12565,7 @@ a:active {
 }
 
 .pub-title {
-  color: rgb(255, 0, 0);
+  color: rgb(155, 0, 0);
 }
 
 .pub-content {
@@ -12724,3 +12724,6 @@ h2{
   color:#007aff !important;
 }
 
+.service-info small {
+  line-height: 1px !important;
+}
