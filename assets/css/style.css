@@ -12565,7 +12565,7 @@ a:active {
 }
 
 .pub-title {
-  color: rgb(155, 0, 0);
+  color: rgb(124, 0, 0);
 }
 
 .pub-content {
@@ -12589,7 +12589,7 @@ h2.oppertunities-section {
   z-index: 10;
   height: 400px;
   width: auto;
-  top: 0;
+  top: 30px;
   left: 130px;
   border-radius: 50%;
 }
@@ -12724,6 +12724,7 @@ h2{
   color:#007aff !important;
 }
 
-.service-info small {
-  line-height: 1px !important;
+.service-info .people-block small {
+  line-height: normal !important;
+  font-size: 12px;
 }
