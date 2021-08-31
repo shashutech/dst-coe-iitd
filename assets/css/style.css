@@ -76,6 +76,8 @@ html {
   font-size: 100%;
 }
 
+
+
 body {
   background-color: white;
   font-family: 'Roboto-regular', sans-serif;
@@ -12565,7 +12567,7 @@ a:active {
 }
 
 .pub-title {
-  color: rgb(124, 0, 0);
+  color: #BF360C;
 }
 
 .pub-content {
@@ -12725,6 +12727,9 @@ h2{
 }
 
 .service-info .people-block small {
-  line-height: normal !important;
-  font-size: 12px;
+  /* line-height: 0.1 !important; */
+  display: block;
+  line-height: 1.2 !important;
+  margin-top: 5px;
 }
+
