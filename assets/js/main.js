@@ -239,10 +239,6 @@
       if ($heroSlider.length) {
         var swiper = new Swiper('.hero-slider-one', {
           spaceBetween: 0,
-          autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-          },
           slidesPerView: 1,
           freeMode: false,
           loop: true,
