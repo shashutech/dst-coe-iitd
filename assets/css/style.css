@@ -134,6 +134,10 @@ h6 {
   font-size: 0.8em;
 }
 
+#main-header-title {
+  font-size: 2rem;
+}
+
 h1 a,
 h2 a,
 h3 a,
@@ -3412,6 +3416,10 @@ body:not(.buddypress) .article-content table th {
     max-width: 540px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #main-header-title {
+    font-size: 1.4rem;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 575px) {
@@ -12520,7 +12528,7 @@ a:active {
   margin-bottom: 10px;
   border-radius: 8px;
   border: 0;
-  box-shadow: 3px 3px 50px rgb(0 0 0 / 8%);
+  /* box-shadow: 3px 3px 50px rgb(0 0 0 / 8%); */
 }
 
 .careers h3 {
@@ -12712,6 +12720,13 @@ img.research-header-img {
   margin-left: 180px !important;
 }
 
+#top-card-section {
+  margin-top: -30px; 
+  padding-right:40px; 
+  padding-left: 0; 
+  margin-left: 0;
+}
+
 h2{
   color: #4776E6;
 }
@@ -12733,6 +12748,25 @@ h2{
   display: block;
   line-height: 1.2 !important;
   margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  #top-card-section {
+    margin-top: 0;
+    padding-right:0; 
+    padding-left: 0; 
+    margin-left: 0;
+  }
+
+  .computer-img {
+    position: relative;
+    z-index: 3;
+    top: 190px;
+    left: 340px;
+    height: 200px;
+    width: auto;
+    margin-bottom: 200px;
+  }
 }
 
 .card-gradient {
